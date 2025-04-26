@@ -16,7 +16,8 @@ namespace Arithmetic
         {
             InitializeComponent();
             ShowCurrentDate();
-            labelUserName.Text = $"Пользователь: {AuthInfo.UserName} {AuthInfo.UserSurname}";
+            labelUserName.Text = $"Пользователь: {
+                .UserName} {AuthInfo.UserSurname}";
         }
         private void ShowCurrentDate()
         {

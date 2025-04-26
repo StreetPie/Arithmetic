@@ -69,7 +69,8 @@ namespace Arithmetic
                 if (user != null)
                 {
                     MessageBox.Show("Авторизация успешна", "Успешно", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    AuthInfo.SetAuthenticatedUser(user.Name, user.Surname, user.Class);
+                    
+                    .SetAuthenticatedUser(user.Name, user.Surname, user.Class);
                     Главное_окно главное_Окно = new Главное_окно();
                     this.Hide();
                     главное_Окно.ShowDialog();

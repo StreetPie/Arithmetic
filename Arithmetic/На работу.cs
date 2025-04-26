@@ -18,7 +18,8 @@ namespace Arithmetic
         {
             InitializeComponent();
             button4.Enabled = false; // Изначально кнопка заблокирована
-            labelUserName.Text = $"Пользователь: {AuthInfo.UserName} {AuthInfo.UserSurname}";
+            labelUserName.Text = $"Пользователь: {
+                .UserName} {AuthInfo.UserSurname}";
         }
 
         private void button4_Click(object sender, EventArgs e)

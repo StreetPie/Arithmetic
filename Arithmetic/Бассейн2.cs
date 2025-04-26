@@ -21,7 +21,8 @@ namespace Arithmetic
         {
             InitializeComponent();
             button4.Enabled = false;
-            labelUserName.Text = $"Пользователь: {AuthInfo.UserName} {AuthInfo.UserSurname} {AuthInfo.UserClass}";
+            labelUserName.Text = $"Пользователь: {AuthInfo.UserName} {AuthInfo.UserSurname} {
+                .UserClass}";
         }
 
         private void Бассейн2_Load(object sender, EventArgs e)

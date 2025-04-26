@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
-using System.Data.Entity;
+//using System.Data.Entity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace Arithmetic.Models
 {
